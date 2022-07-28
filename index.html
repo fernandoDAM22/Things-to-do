@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1be2c88d50.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Things to do</title>
+</head>
+<body>
+    <!-- This div only be shown if cookies are not accepted every time the page is reloaded -->
+    <div class="cookie" id="div-cookie">
+        <h1>you accept the use of cookies?</h1>
+        <div>
+            <button id="ck-yes">Yes</button>
+            <button id="ck-no">No</button>
+        </div>
+    </div>
+    <button class="dark-mode" id="dark-mode">
+        <p><i class="fa-solid fa-moon"></i></p>
+    </button>
+    <!-- In this div there are the buttons and the input -->
+    <div class="controls">
+        <input type="text" id="task-title" class="title">
+        <input type="color" class="color" id="task-color" value="#74b9ff">
+        <button class="btn" id="task-btn">
+            <p>submit</p>
+        </button>
+    </div>
+    <!-- In this container task we displayed -->
+    <div class="container" id="task-container">
+       
+
+    </div>
+    <!-- Links to JavaScript files -->
+    <script src="js/cookies.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
